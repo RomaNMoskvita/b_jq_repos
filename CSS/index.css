@@ -1,0 +1,63 @@
+body
+{
+    padding-top: 56px;
+}
+
+#TeamSection
+{
+    padding-top: 56px;
+}
+
+#HomeSection{
+    background: #e74c3c;
+    color: white;
+    padding: 0
+    ;
+}
+
+#JumbotronImage
+{
+    width: 100%;
+}
+
+.jumbotronTextOnImages
+{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+}
+
+#JumbotronHeading
+{
+    margin-top: 20%;
+}
+
+.teamMemberContainer
+{
+    padding: 5px;
+}
+
+.teamMemberImages
+{
+    margin-bottom: 10px;
+}
+
+.socialImages
+{
+    margin-right: 10px;
+}
+
+#ContactSection
+{
+    background-color: #000000;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#ContactButtonContainer
+{
+    margin-top: 10px;
+}
