@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="CSS/index.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -18,8 +20,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand" href="index.php">
-            <img src="http://res.cloudinary.com/sonarsystems/image/upload/c_scale,w_150/v1442498022/Sonar-Systems-Circle-Logo_quet2k.png" width="30" height="30" alt="">
+        <a href="#" id="SidebarToggle" data-target="#sidebar" data-toggle="collapse">
+            <i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
         </a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -28,6 +30,7 @@
                     <a class="nav-link navButton" href="#HomeSection">Główna <span class="sr-only">(aktualna)</span></a>
                 </li>
                 <li class="nav-item navLi">
+
                     <a class="nav-link navButton" href="#TeamSection">Zespól</a>
                 </li>
                 <li class="nav-item navLi">
@@ -42,3 +45,21 @@
             </form>
         </div>
     </nav>
+
+    <div class="container-fluid">
+        <div class="row d-flex d-md-block flex-nowrap wrapper">
+            <div class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
+                <div class="list-group border-0 card text-center text-md-left">
+                    <a href="#menu1" class="list-group-item d-inline-block collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false">
+                        <i class="fa fa-dashboard"></i><span class="hidden-sm-down">Konto</span></a>
+                    <div class="collapse" id="menu1">
+                        <a href="#" class="list-group-item" data-parent="#menu1">Profil</a>
+                        <a href="#" class="list-group-item" data-parent="#menu1">Powiadomienia</a>
+                        <a href="#" class="list-group-item" data-parent="#menu1">Wiadomosci</a>
+                    </div>
+                    <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-film"></i>
+                        <span class="hidden-sm-down">Strona glowna</span></a>
+                </div>
+            </div>
+
+            <main class="col-md-9 float-left col px-5 pl-md-2 pt-2 main">
