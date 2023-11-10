@@ -1,16 +1,7 @@
 $(function () {
-  $(document).on("click", ".navButton", function (event) {
-    $("html, body").animate(
-      {
-        scrollTop: $($(this).attr("href")).offset().top,
-      },
-      800
-    );
-    event.preventDefault();
-  });
-
-  $(document).on("click", ".navLi", function (event) {
-    $(".navLi").removeClass("active");
-    $(this).addClass("active");
+  $(".thumbnailImage").click(function () {
+    var imageURL = $(this).attr("src");
+    $("#ImageShowcase").attr("src", imageURL);
+    $("#LightBoxModal").modal("show");
   });
 });

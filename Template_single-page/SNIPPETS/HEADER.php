@@ -50,15 +50,14 @@
         <div class="row d-flex d-md-block flex-nowrap wrapper">
             <div class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
                 <div class="list-group border-0 card text-center text-md-left">
-                    <a href="#menu1" class="list-group-item d-inline-block collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false">
-                        <i class="fa fa-dashboard"></i><span class="hidden-sm-down">Konto</span></a>
+                    <a href="#menu1" class="list-group-item d-inline-block collapsed" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"><i class="fa fa-dashboard"></i> <span class="hidden-sm-down">Konto</span> </a>
                     <div class="collapse" id="menu1">
-                        <a href="#" class="list-group-item" data-parent="#menu1">Profil</a>
+                        <a href="profile.php" class="list-group-item" data-parent="#menu1">Profil</a>
                         <a href="#" class="list-group-item" data-parent="#menu1">Powiadomienia</a>
-                        <a href="#" class="list-group-item" data-parent="#menu1">Wiadomosci</a>
+                        <a href="#" class="list-group-item" data-parent="#menu1">Wiadomości</a>
+                        <a href="galeria.php" class="list-group-item" data-parent="#menu1">Galeria</a>
                     </div>
-                    <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-film"></i>
-                        <span class="hidden-sm-down">Strona glowna</span></a>
+                    <a href="index.php" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-film"></i> <span class="hidden-sm-down">Strona główna</span></a>
                 </div>
             </div>
 
